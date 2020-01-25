@@ -1,0 +1,9 @@
+﻿# Default ignored files
+/.idea.SuperMeatCraft/.idea/workspace.xml
+# Binaries
+bin
+obj
+
+# Rider
+.idea
+*.userprefs
