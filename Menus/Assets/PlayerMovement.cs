@@ -7,32 +7,66 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody rB;
     [SerializeField] private float jumpH = 200f;
     [SerializeField] private float mvtSpeed = 5f;
-    private Vector3 mvt;
+    //[SerializeField] private float gravity = 9.81f;
 
     private Controls _controls = null;
-    // Start is called before the first frame update
+
+    public Transform grCheck;
+    public float grDistance = 0.4f;
+    public LayerMask grMask;
+    private bool _isGrounded;
+    //private Vector3 _velocity;
     void Awake()
     {
         _controls = new Controls();
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
+        _isGrounded = Physics.CheckSphere(grCheck.position,grDistance,grMask);
+        
         Move();
-    }
+        
+        if (_isGrounded /*&& _velocity.y < 0 */)    //Touche le sol ?
+        {
+            Jump();           //si oui : il peut sauter et son Epp est reset
+            //_velocity.y = -1f;
+        }
+        /*
+        else
+        {                 //sinon : il gagne en vitesse vers le bas
+            _velocity.y -= gravity * Time.deltaTime * Time.deltaTime;
+        }
 
-    public void Jump()
+        rB.AddForce(_velocity); //on applique la gravité
+        */
+    }
+    
+    
+
+    private void Jump()
     {
-            
+        var jumpInput = _controls.Player.Jump.triggered;
+        if (jumpInput)
+        {
+            rB.AddForce(0,jumpH,0);
+        }
     }
 
-    public void Move()
+    private void Move()
     {
-        var movementInput = _controls.Mvt
+        var movementInput = _controls.Player.Move.ReadValue<Vector2>();
+
+        var movement = new Vector3
+        {
+            x = movementInput.x,
+            z = movementInput.y
+        }.normalized;
+        
+        transform.Translate(movement * (mvtSpeed * Time.deltaTime));
     }
 
-    private void OnEnable() => _controls.Mvt.Enable();
+    private void OnEnable() => _controls.Player.Enable();
 
-    private void OnDisable() => _controls.Mvt.Disable();
+    private void OnDisable() => _controls.Player.Disable();
 }

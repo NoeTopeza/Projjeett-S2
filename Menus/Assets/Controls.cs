@@ -15,7 +15,7 @@ public class @Controls : IInputActionCollection, IDisposable
     ""name"": ""Controls"",
     ""maps"": [
         {
-            ""name"": ""Mvt"",
+            ""name"": ""Player"",
             ""id"": ""9df19112-d100-4c61-b35f-57cfe1a7ea13"",
             ""actions"": [
                 {
@@ -118,10 +118,10 @@ public class @Controls : IInputActionCollection, IDisposable
         }
     ]
 }");
-        // Mvt
-        m_Mvt = asset.FindActionMap("Mvt", throwIfNotFound: true);
-        m_Mvt_Move = m_Mvt.FindAction("Move", throwIfNotFound: true);
-        m_Mvt_Jump = m_Mvt.FindAction("Jump", throwIfNotFound: true);
+        // Player
+        m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
+        m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
+        m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -168,34 +168,34 @@ public class @Controls : IInputActionCollection, IDisposable
         asset.Disable();
     }
 
-    // Mvt
-    private readonly InputActionMap m_Mvt;
-    private IMvtActions m_MvtActionsCallbackInterface;
-    private readonly InputAction m_Mvt_Move;
-    private readonly InputAction m_Mvt_Jump;
-    public struct MvtActions
+    // Player
+    private readonly InputActionMap m_Player;
+    private IPlayerActions m_PlayerActionsCallbackInterface;
+    private readonly InputAction m_Player_Move;
+    private readonly InputAction m_Player_Jump;
+    public struct PlayerActions
     {
         private @Controls m_Wrapper;
-        public MvtActions(@Controls wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Move => m_Wrapper.m_Mvt_Move;
-        public InputAction @Jump => m_Wrapper.m_Mvt_Jump;
-        public InputActionMap Get() { return m_Wrapper.m_Mvt; }
+        public PlayerActions(@Controls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Move => m_Wrapper.m_Player_Move;
+        public InputAction @Jump => m_Wrapper.m_Player_Jump;
+        public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(MvtActions set) { return set.Get(); }
-        public void SetCallbacks(IMvtActions instance)
+        public static implicit operator InputActionMap(PlayerActions set) { return set.Get(); }
+        public void SetCallbacks(IPlayerActions instance)
         {
-            if (m_Wrapper.m_MvtActionsCallbackInterface != null)
+            if (m_Wrapper.m_PlayerActionsCallbackInterface != null)
             {
-                @Move.started -= m_Wrapper.m_MvtActionsCallbackInterface.OnMove;
-                @Move.performed -= m_Wrapper.m_MvtActionsCallbackInterface.OnMove;
-                @Move.canceled -= m_Wrapper.m_MvtActionsCallbackInterface.OnMove;
-                @Jump.started -= m_Wrapper.m_MvtActionsCallbackInterface.OnJump;
-                @Jump.performed -= m_Wrapper.m_MvtActionsCallbackInterface.OnJump;
-                @Jump.canceled -= m_Wrapper.m_MvtActionsCallbackInterface.OnJump;
+                @Move.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove;
+                @Move.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove;
+                @Move.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove;
+                @Jump.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnJump;
+                @Jump.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnJump;
+                @Jump.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnJump;
             }
-            m_Wrapper.m_MvtActionsCallbackInterface = instance;
+            m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
             {
                 @Move.started += instance.OnMove;
@@ -207,7 +207,7 @@ public class @Controls : IInputActionCollection, IDisposable
             }
         }
     }
-    public MvtActions @Mvt => new MvtActions(this);
+    public PlayerActions @Player => new PlayerActions(this);
     private int m_VRSchemeIndex = -1;
     public InputControlScheme VRScheme
     {
@@ -226,7 +226,7 @@ public class @Controls : IInputActionCollection, IDisposable
             return asset.controlSchemes[m_MKSchemeIndex];
         }
     }
-    public interface IMvtActions
+    public interface IPlayerActions
     {
         void OnMove(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);

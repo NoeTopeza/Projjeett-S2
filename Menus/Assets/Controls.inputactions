@@ -2,7 +2,7 @@
     "name": "Controls",
     "maps": [
         {
-            "name": "Mvt",
+            "name": "Player",
             "id": "9df19112-d100-4c61-b35f-57cfe1a7ea13",
             "actions": [
                 {
