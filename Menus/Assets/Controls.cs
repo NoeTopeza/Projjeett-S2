@@ -93,12 +93,135 @@ public class @Controls : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""eb25424e-88e5-427f-82fa-4ebef96a6871"",
+                    ""path"": ""<XRController>{LeftHand}/joystick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""VR"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""084ae683-6aca-4dcb-8b59-92851fb72a9d"",
                     ""path"": ""<Keyboard>/space"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""M&K"",
                     ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f670051a-6800-422a-85c3-89e6751c3228"",
+                    ""path"": ""<XRController>{LeftHand}/triggerPressed"",
+                    ""interactions"": ""Press"",
+                    ""processors"": """",
+                    ""groups"": ""VR"",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""Player_2"",
+            ""id"": ""bb6af63c-8e6c-45d6-ba61-6a218ce0ebe4"",
+            ""actions"": [
+                {
+                    ""name"": ""Jump"",
+                    ""type"": ""Button"",
+                    ""id"": ""180a8f78-4b2e-462c-9534-88e055e656fb"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": ""Press""
+                },
+                {
+                    ""name"": ""Move"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""d3b14358-cdb5-4485-b515-5895978a411c"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""f2b115a2-f735-4a80-87ee-3b5596d1671a"",
+                    ""path"": ""<Keyboard>/numpad0"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""M&K"",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""Keyboard"",
+                    ""id"": ""e5c33907-224d-486a-a19a-3040fddc568e"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""c671d946-2d5d-4ed7-906e-d6ee036b7efb"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""M&K"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""4076cd47-e6f5-4557-8ef8-edf5fbc071ba"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""M&K"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""ccbeaf00-3deb-4ce4-b31b-b58559a02e00"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""M&K"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""b7a65e2d-02a6-4680-a2c0-40f4b39f1882"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""M&K"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1d1dc703-f19f-412f-92a9-c9791680ea74"",
+                    ""path"": ""<XRController>{LeftHand}/joystick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""VR"",
+                    ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -122,6 +245,10 @@ public class @Controls : IInputActionCollection, IDisposable
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
+        // Player_2
+        m_Player_2 = asset.FindActionMap("Player_2", throwIfNotFound: true);
+        m_Player_2_Jump = m_Player_2.FindAction("Jump", throwIfNotFound: true);
+        m_Player_2_Move = m_Player_2.FindAction("Move", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -208,6 +335,47 @@ public class @Controls : IInputActionCollection, IDisposable
         }
     }
     public PlayerActions @Player => new PlayerActions(this);
+
+    // Player_2
+    private readonly InputActionMap m_Player_2;
+    private IPlayer_2Actions m_Player_2ActionsCallbackInterface;
+    private readonly InputAction m_Player_2_Jump;
+    private readonly InputAction m_Player_2_Move;
+    public struct Player_2Actions
+    {
+        private @Controls m_Wrapper;
+        public Player_2Actions(@Controls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Jump => m_Wrapper.m_Player_2_Jump;
+        public InputAction @Move => m_Wrapper.m_Player_2_Move;
+        public InputActionMap Get() { return m_Wrapper.m_Player_2; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(Player_2Actions set) { return set.Get(); }
+        public void SetCallbacks(IPlayer_2Actions instance)
+        {
+            if (m_Wrapper.m_Player_2ActionsCallbackInterface != null)
+            {
+                @Jump.started -= m_Wrapper.m_Player_2ActionsCallbackInterface.OnJump;
+                @Jump.performed -= m_Wrapper.m_Player_2ActionsCallbackInterface.OnJump;
+                @Jump.canceled -= m_Wrapper.m_Player_2ActionsCallbackInterface.OnJump;
+                @Move.started -= m_Wrapper.m_Player_2ActionsCallbackInterface.OnMove;
+                @Move.performed -= m_Wrapper.m_Player_2ActionsCallbackInterface.OnMove;
+                @Move.canceled -= m_Wrapper.m_Player_2ActionsCallbackInterface.OnMove;
+            }
+            m_Wrapper.m_Player_2ActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Jump.started += instance.OnJump;
+                @Jump.performed += instance.OnJump;
+                @Jump.canceled += instance.OnJump;
+                @Move.started += instance.OnMove;
+                @Move.performed += instance.OnMove;
+                @Move.canceled += instance.OnMove;
+            }
+        }
+    }
+    public Player_2Actions @Player_2 => new Player_2Actions(this);
     private int m_VRSchemeIndex = -1;
     public InputControlScheme VRScheme
     {
@@ -230,5 +398,10 @@ public class @Controls : IInputActionCollection, IDisposable
     {
         void OnMove(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
+    }
+    public interface IPlayer_2Actions
+    {
+        void OnJump(InputAction.CallbackContext context);
+        void OnMove(InputAction.CallbackContext context);
     }
 }
