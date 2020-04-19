@@ -2,350 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7634d74-ac31-42fe-ad9b-8b37ffcea091" name="Default Changelist" comment="mvt ?">
-      <change afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Cube.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Cube.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/AccountService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/AccountService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/CullAreaEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/CullAreaEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/PhotonConverter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/PhotonConverter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/PhotonEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/PhotonEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/PhotonEditorUtils.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/PhotonEditorUtils.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/PhotonGUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/PhotonGUI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/PhotonViewHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/PhotonViewHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/PhotonViewInspector.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/PhotonViewInspector.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/PunSceneSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/PunSceneSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/PunSceneSettingsFile.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/PunSceneSettingsFile.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/ReorderableListResources.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/ReorderableListResources.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/ServerSettingsInspector.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/ServerSettingsInspector.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/Views.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/Views/PhotonAnimatorViewEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/Views/PhotonAnimatorViewEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/Views/PhotonRigidbody2DViewEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/Views/PhotonRigidbody2DViewEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/Views/PhotonRigidbodyViewEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/Views/PhotonRigidbodyViewEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/Views/PhotonTransformViewEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/Views/PhotonTransformViewEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/background.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/help.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Editor/PhotonNetwork/help.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/PhotonCloud-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/PhotonCloud-icon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/PhotonNetwork-Documentation.chm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/PhotonNetwork-Documentation.chm.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/PhotonNetwork-Documentation.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/PhotonNetwork-Documentation.pdf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/CustomTypes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/CustomTypes.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Enums.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Enums.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Extensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Extensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/FriendInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/FriendInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/GizmoType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/GizmoType.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/LoadbalancingPeer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/LoadbalancingPeer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonClasses.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonClasses.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonLagSimulationGui.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonLagSimulationGui.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonNetwork.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonNetwork.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonPing.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonPing.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonPlayer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonPlayer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonStatsGui.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonStatsGui.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonStreamQueue.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonStreamQueue.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PingCloudRegions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PingCloudRegions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/RPC.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/RPC.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Room.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Room.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/RoomInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/RoomInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/ServerSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/ServerSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/SocketUdp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/SocketUdp.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonAnimatorView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonAnimatorView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonRigidbody2DView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonRigidbody2DView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonRigidbodyView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonRigidbodyView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewPositionControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewPositionControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewPositionModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewPositionModel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewRotationControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewRotationControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewRotationModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewRotationModel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewScaleControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewScaleControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewScaleModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewScaleModel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/PunIcon-White-128.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/PunIcon-White-128.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/ConnectAndJoinRandom.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/ConnectAndJoinRandom.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/CullArea.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/CullArea.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/InRoomChat.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/InRoomChat.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/InputToEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/InputToEvent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/ManualPhotonViewAllocator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/ManualPhotonViewAllocator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/MoveByKeys.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/MoveByKeys.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/NetworkCullingHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/NetworkCullingHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/OnClickDestroy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/OnClickDestroy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/OnClickInstantiate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/OnClickInstantiate.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/OnJoinedInstantiate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/OnJoinedInstantiate.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/OnStartDelete.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/OnStartDelete.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PhotonPlayer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PhotonPlayer/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PhotonPlayer/Editor/PlayerRoomIndexingInspector.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PhotonPlayer/Editor/PlayerRoomIndexingInspector.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PhotonPlayer/Editor/PunTeamsInspector.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PhotonPlayer/Editor/PunTeamsInspector.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PhotonPlayer/PlayerRoomIndexing.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PhotonPlayer/PlayerRoomIndexing.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PickupItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PickupItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PickupItemSimple.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PickupItemSimple.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PickupItemSyncer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PickupItemSyncer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PointedAtGameObjectInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PointedAtGameObjectInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PunPlayerScores.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PunPlayerScores.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PunTeams.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PunTeams.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PunTurnManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/PunTurnManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/QuitOnEscapeOrBack.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/QuitOnEscapeOrBack.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/ShowStatusWhenConnecting.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/ShowStatusWhenConnecting.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/SmoothSyncMovement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/SmoothSyncMovement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/SupportLogger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/SupportLogger.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/TimeKeeper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/TimeKeeper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/UI/ButtonInsideScrollList.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/UI/ButtonInsideScrollList.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/UI/TextButtonTransition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/UI/TextButtonTransition.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/UI/TextToggleIsOnTransition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/UtilityScripts/UI/TextToggleIsOnTransition.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/changelog.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/changelog.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/link.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/link.xml.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Photon Unity Networking/readme.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChannelCreationOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChannelCreationOptions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChannelWellKnownProperties.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChannelWellKnownProperties.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChatChannel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChatChannel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChatClient.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChatClient.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChatDisconnectCause.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChatDisconnectCause.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChatEventCode.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChatEventCode.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChatOperationCode.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChatOperationCode.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChatParameterCode.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChatParameterCode.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChatPeer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChatPeer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChatState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChatState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChatUserStatus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/ChatUserStatus.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/IChatClientListener.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PhotonChatApi/IChatClientListener.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayerMvt2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Metro.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Metro/Photon3Unity3D.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Metro/Photon3Unity3D.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Metro/Photon3Unity3D.pri" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Metro/Photon3Unity3D.pri.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Photon3Unity3D.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Photon3Unity3D.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Photon3Unity3D.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Photon3Unity3D.xml.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/WebSocket.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/WebSocket/SocketWebTcp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/WebSocket/SocketWebTcp.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/WebSocket/WebSocket.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/WebSocket/WebSocket.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/WebSocket/WebSocket.jslib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/WebSocket/WebSocket.jslib.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/WebSocket/websocket-sharp.README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/WebSocket/websocket-sharp.README.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/WebSocket/websocket-sharp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/WebSocket/websocket-sharp.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/changes-library.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/changes-library.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Music.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Music/Honeymoon Un Deux Trois.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Music/Honeymoon Un Deux Trois.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Music/MusicMixer.mixer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Music/MusicMixer.mixer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/XR.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/XR/Loaders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/XR/Loaders/Oculus Loader.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/XR/Loaders/Oculus Loader.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/XR/Settings.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/XR/Settings/Oculus Settings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/XR/Settings/Oculus Settings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/XR/XRGeneralSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/XR/XRGeneralSettings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_UnitTextureBluecc0f254a2c535401.terrainlayer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_UnitTextureBluecc0f254a2c535401.terrainlayer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_UnitTextureRedcc0f254a2c535401.terrainlayer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_UnitTextureRedcc0f254a2c535401.terrainlayer.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Menus/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Menus/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Menus/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Menus/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Menus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Menus/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Controls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Controls.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Controls.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Controls.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameM&amp;K.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameM&amp;K.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bloc.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bloc.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blok.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blok.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cube.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cube.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grille.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Grille.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hand_Button.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hand_Button.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/New Material 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material 1.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/New Material 1.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/New Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/New Material.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Menu/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Menu/MainMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerMvt2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerMvt2.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameVR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameVR.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Honeymoon Un Deux Trois.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Honeymoon Un Deux Trois.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Multiplayer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Multiplayer.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MusicMixer.mixer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MusicMixer.mixer.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/APIUpdater/project-dependencies.graph" beforeDir="false" afterPath="$PROJECT_DIR$/Library/APIUpdater/project-dependencies.graph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Air.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Air.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Bloc.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Bloc.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Bloc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Bloc/Air.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Bloc/Air.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Bloc/Blok.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Bloc/Blok.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Blok.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Blok.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Case.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Case.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/GameEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/GameEvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/GridManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/GridManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Grille.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Grille.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/HandButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/HandButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Hand_Button.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Hand_Button.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerMvt2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PlayerMvt2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/Controller.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/Controller.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/AnnotationManager" beforeDir="false" afterPath="$PROJECT_DIR$/Library/AnnotationManager" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/05/05a708198239e1c925a944c302ba09c5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/07/0729453b15d91f3eeee6358c8d009879" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/11/11824b69dc787a7f9fdbd5cc40340e00" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/17/17758420cecc1aac5c3d25c345284518" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/26/267bd9ef8c934473b7deec8995845ca8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2a/2a3a57a51e6d7aada811e17a00c6243e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3a/3acaed5db6f76683633e7e4f348a11ef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/41/41fb2957656c0585f5c0687625526336" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/47/47a56aa19eaea1e7abc506ab56908cbb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/62/6294c7286af200b77b6dcb8bf9791862" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/6a/6aa84affc33e94d6d3fded82cf902b71" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/6c/6cc8670c07c40e6d23c452554776d47b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/6f/6f88e0fe606127246d76de11cf87c389" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/70/702ff06d30141ae98f69e9fc38d2a634" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/85/859e6d55566c03494dbaaced575fc2a8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/86/862204fdb9058735b150d051035fbee4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8d/8d9955f06ffec0905758cb6b94aa0cac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8e/8ebea6e451de4c8bf903e4ac2a86653c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/91/91f35030550b504c43915bf8a97d4976" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/92/92657f17296e20677d11c265a9ef4590" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9a/9a0bf3cd9c66da8f4102a58a016f4df7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a1/a1ee906bb48c1e024055ff7edc2d94f0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/aa/aa55e56cf53305fecf5c4eab8084fb50" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c5/c5b8a3fdb317c148939ae3ce51002ff0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c8/c8f7953b4c112e1347949a6eba8f4d07" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d8/d809106a55e3ae3f2e4e75dfb0e42d9b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e3/e36a61b39da6f485332676c20a009485" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e7/e7df9f361c1e2bf0bd62260eaa4593cb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e8/e8ce5d9284a829d2d2543e0f18397b96" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f1/f1078aef15360dae8016435f261ddcd7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/fc/fc9a102667765774674a0075d5968b57" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/11/11e348423657e76742129d0dfa9d68c8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/47/4721b49cbcd4ea986b34a2ea5fa004cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/48/48725531dfa0ea80e10eb7cdf5b6ca5e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4d/4ddb676010b9376315c31600a9abeec7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/64/64d3f16993eee7f7c0253303b148b474" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7b/7b73d5d6cbf8ccd3f13b011b2666a463" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/80/80dd1a35a2e4ffd36bfb0c6196c8cc75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/85/8531c65e8c89cfccee2250d68a7163db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8d/8d27d71316b1388a19bdf546b0da9827" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a0/a089c86b481cfbc9384ab1205ba7f502" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c7/c736a01ff26ecbd896e8100fee93a9e1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/cd/cd1aab493ed57339b25bec06793002a4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d7/d751154b4dddf4674a01b53011feed69" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f8/f8e73bcab63172577920a40d1bf196aa" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/CHANGELOG.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/CONTRIBUTING.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/Editor/ProjectGeneration.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/Editor/ProjectGeneration/AssemblyNameProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/Editor/ProjectGeneration/AssemblyNameProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/Editor/ProjectGeneration/FileIO.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/Editor/ProjectGeneration/FileIO.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/Editor/ProjectGeneration/GUIDGenerator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/Editor/ProjectGeneration/GUIDGenerator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/Editor/ProjectGeneration/ProjectGeneration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/Editor/ProjectGeneration/ProjectGeneration.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/Editor/Unity.com.unity.vscode.Editor.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/Editor/Unity.com.unity.vscode.Editor.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/Editor/VSCodeDiscovery.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/Editor/VSCodeDiscovery.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/Editor/VSCodeScriptEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/Editor/VSCodeScriptEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/LICENSE.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.1.4/package.json.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.InputSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.InputSystem.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.InputSystem.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.InputSystem.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.pdb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll" afterDir="false" />
@@ -367,13 +105,14 @@
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/9dcb81-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/9dcb81-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/UIElements/EditorWindows/UnityEditor.PackageManager.UI.PackageManagerWindow.pref" beforeDir="false" afterPath="$PROJECT_DIR$/Library/UIElements/EditorWindows/UnityEditor.PackageManager.UI.PackageManagerWindow.pref" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Menus.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Menus.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -385,14 +124,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Bloc.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Game.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Controls.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Menu/SetVolume.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Menu/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Cube.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Grille.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PlayerMvt2.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Air.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Blok.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Case.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/HandButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Air.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerMvt2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Grille.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -403,11 +149,27 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/PlayerMvt.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerMvt.cs" />
         <option value="$PROJECT_DIR$/Assets/playerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Menu/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerMvt2.cs" />
         <option value="$PROJECT_DIR$/Assets/Grille.cs" />
+        <option value="$PROJECT_DIR$/Assets/Bloc.cs" />
         <option value="$PROJECT_DIR$/Assets/Cube.cs" />
+        <option value="$PROJECT_DIR$/Assets/Menu/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlayerMvt2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/GridManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Bloc/Air.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Bloc/Blok.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Blok.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Hand_Button.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/GameEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Air.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Bloc.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/HandButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Case.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Grille.cs" />
       </list>
     </option>
   </component>
@@ -425,10 +187,27 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager" selected=".NET Static Method.Script.Grille.InitGrid">
+    <configuration name="Script.Grille.InitGrid" type="DotNetStaticMethod" factoryName=".NET Static Method" temporary="true">
+      <option name="EXE_PATH" value="K:\Program Files\JetBrains\JetBrains Rider 2019.3.1\lib\ReSharperHost\JetLauncherILc.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Assembly-CSharp.csproj" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.1" />
+      <option name="CLASS_NAME" value="Script.Grille" />
+      <option name="METHOD_NAME" value="InitGrid" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -441,6 +220,11 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Static Method.Script.Grille.InitGrid" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -471,7 +255,14 @@
       <workItem from="1583702631446" duration="2870000" />
       <workItem from="1583746751926" duration="1368000" />
       <workItem from="1583759649080" duration="1072000" />
-      <workItem from="1584025217071" duration="6404000" />
+      <workItem from="1584025217071" duration="7006000" />
+      <workItem from="1584111746234" duration="8621000" />
+      <workItem from="1584189157442" duration="7313000" />
+      <workItem from="1584205802968" duration="1937000" />
+      <workItem from="1584304217884" duration="5389000" />
+      <workItem from="1587050170093" duration="1301000" />
+      <workItem from="1587208013024" duration="14401000" />
+      <workItem from="1587291433391" duration="11873000" />
     </task>
     <task id="LOCAL-00001" summary="mvt ?">
       <created>1583694014345</created>
@@ -507,22 +298,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="mvt ?" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="729" height="344" key="GridCell.Tab.0.bottom" timestamp="1583698057187">
+    <state width="879" height="279" key="GridCell.Tab.0.bottom" timestamp="1587302375970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="729" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583698057187" />
-    <state width="729" height="344" key="GridCell.Tab.0.center" timestamp="1583698057186">
+    <state width="879" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587302375970" />
+    <state width="879" height="279" key="GridCell.Tab.0.center" timestamp="1587302375970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="729" height="344" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583698057186" />
-    <state width="729" height="344" key="GridCell.Tab.0.left" timestamp="1583698057186">
+    <state width="879" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587302375970" />
+    <state width="879" height="279" key="GridCell.Tab.0.left" timestamp="1587302375970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="729" height="344" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583698057186" />
-    <state width="729" height="344" key="GridCell.Tab.0.right" timestamp="1583698057186">
+    <state width="879" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587302375970" />
+    <state width="879" height="279" key="GridCell.Tab.0.right" timestamp="1587302375970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="729" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583698057186" />
+    <state width="879" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587302375970" />
     <state width="729" height="344" key="GridCell.Tab.1.bottom" timestamp="1583698057187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

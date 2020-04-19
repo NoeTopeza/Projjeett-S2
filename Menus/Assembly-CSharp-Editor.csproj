@@ -93,11 +93,17 @@
  <Reference Include="Unity.XR.Interaction.Toolkit">
  <HintPath>K:/Users/pc/Desktop/GitWork/projet-s2/Projjeett-S2/Menus/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.ProGrids">
+ <HintPath>K:/Users/pc/Desktop/GitWork/projet-s2/Projjeett-S2/Menus/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
  <HintPath>K:/Users/pc/Desktop/GitWork/projet-s2/Projjeett-S2/Menus/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.InputSystem">
  <HintPath>K:/Users/pc/Desktop/GitWork/projet-s2/Projjeett-S2/Menus/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProGrids.Editor">
+ <HintPath>K:/Users/pc/Desktop/GitWork/projet-s2/Projjeett-S2/Menus/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.Oculus">
  <HintPath>K:/Users/pc/Desktop/GitWork/projet-s2/Projjeett-S2/Menus/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>

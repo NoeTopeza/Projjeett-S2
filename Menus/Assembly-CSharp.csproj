@@ -59,8 +59,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Controls.cs" />
-     <Compile Include="Assets\Cube.cs" />
-     <Compile Include="Assets\Grille.cs" />
      <Compile Include="Assets\Menu\MainMenu.cs" />
      <Compile Include="Assets\Menu\SetVolume.cs" />
      <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\CustomTypes.cs" />
@@ -134,8 +132,16 @@
      <Compile Include="Assets\PhotonChatApi\ChatState.cs" />
      <Compile Include="Assets\PhotonChatApi\ChatUserStatus.cs" />
      <Compile Include="Assets\PhotonChatApi\IChatClientListener.cs" />
-     <Compile Include="Assets\PlayerMovement.cs" />
-     <Compile Include="Assets\PlayerMvt2.cs" />
+     <Compile Include="Assets\Script\Air.cs" />
+     <Compile Include="Assets\Script\Bloc.cs" />
+     <Compile Include="Assets\Script\Blok.cs" />
+     <Compile Include="Assets\Script\Case.cs" />
+     <Compile Include="Assets\Script\Game.cs" />
+     <Compile Include="Assets\Script\GameManager.cs" />
+     <Compile Include="Assets\Script\Grille.cs" />
+     <Compile Include="Assets\Script\HandButton.cs" />
+     <Compile Include="Assets\Script\PlayerMovement.cs" />
+     <Compile Include="Assets\Script\PlayerMvt2.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -205,11 +211,17 @@
  <Reference Include="Unity.XR.Interaction.Toolkit">
  <HintPath>K:/Users/pc/Desktop/GitWork/projet-s2/Projjeett-S2/Menus/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.ProGrids">
+ <HintPath>K:/Users/pc/Desktop/GitWork/projet-s2/Projjeett-S2/Menus/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
  <HintPath>K:/Users/pc/Desktop/GitWork/projet-s2/Projjeett-S2/Menus/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.InputSystem">
  <HintPath>K:/Users/pc/Desktop/GitWork/projet-s2/Projjeett-S2/Menus/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProGrids.Editor">
+ <HintPath>K:/Users/pc/Desktop/GitWork/projet-s2/Projjeett-S2/Menus/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.Oculus">
  <HintPath>K:/Users/pc/Desktop/GitWork/projet-s2/Projjeett-S2/Menus/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>

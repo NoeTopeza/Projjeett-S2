@@ -1,19 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Script;
-using UnityEngine;
-
-public class Air : Bloc
+﻿namespace Script
 {
-    // Start is called before the first frame update
-    void Start()
+    public class Air : Bloc
     {
-        
-    }
+        public Air()
+        {
+            Type = BlocType.Air;
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

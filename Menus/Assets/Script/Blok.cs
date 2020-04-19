@@ -1,8 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Blok : Bloc
+﻿namespace Script
 {
-    
+    public class Blok : Bloc
+    {
+        public const int BuildCost = 1;
+        
+        public Blok()
+        {
+            Type = BlocType.Blok;
+        }
+
+    }
 }

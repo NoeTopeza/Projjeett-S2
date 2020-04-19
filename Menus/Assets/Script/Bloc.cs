@@ -1,16 +1,17 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public abstract class Bloc : MonoBehaviour
+namespace Script
 {
-    public enum BlocType
+    public abstract class Bloc : MonoBehaviour
     {
-        //mettre ici les différents type de bloc à placer
-        Blok, Bumper, Lava
+        public enum BlocType
+        {
+            //mettre ici les différents type de bloc à placer, Air est à retirer
+            Air, Blok, Bumper, Lava
+        }
+
+        protected BlocType Type;
+
+        public BlocType GType => Type;
     }
-
-    protected BlocType Type;
-
-    public BlocType GType => Type;
 }

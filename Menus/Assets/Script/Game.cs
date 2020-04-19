@@ -1,18 +1,27 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Game : MonoBehaviour
+namespace Script
 {
-    // Start is called before the first frame update
-    void Start()
+    public class Game : MonoBehaviour
     {
-        
-    }
+        private long _score;
+        private int _credit;
+        private int _nbRound;
 
-    // Update is called once per frame
-    void Update()
-    {
+        public Game(string name, long initMoney)
+        {
+            
+        }
+        // Start is called before the first frame update
+        void Start()
+        {
         
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+        
+        }
     }
 }
