@@ -2,23 +2,33 @@
 
 namespace Script
 {
-    public class Case : MonoBehaviour
+    public class Case
     {
         public enum Biome
         {
             Air, AirBlok, Terrain, Lava, LavaSlab 
         }
         
+        public enum BlocType
+        {
+            //mettre ici les différents type de bloc à placer, Air est à retirer
+            Blok, Bumper
+        }
+        
         private Biome _biome;
+        protected BlocType Type;
+        //le prix à add
+        public BlocType GType => Type;
+        public Biome GBiome => _biome;
 
         public Case(Biome b) //Fc d'init de case
         {
             _biome = b;
         }
 
-        public bool BuildBloc(ref int credit, Blok.BlocType type)
+        public bool BuildBloc(ref int credit, BlocType type)
         {
-            if (type == Bloc.BlocType.Blok && credit >= Blok.BuildCost) //modifier le test de bloc ds la grille
+            if (type == BlocType.Blok && credit >= Blok.BuildCost) //modifier le test de bloc ds la grille
                                                                         //par test de bloc ds unity
             {
                 credit -= Blok.BuildCost;
@@ -32,10 +42,10 @@ namespace Script
 
         public void BuildTerrain(Biome bloc)
         {
-            
+            _biome = bloc;
         }
 
-        public bool CanDestroyBloc()
+        /*public bool CanDestroyBloc()  
         {
             if (_biome != Biome.Terrain || _biome != Biome.AirBlok)
             {
@@ -43,6 +53,6 @@ namespace Script
             }
 
             return false;
-        }
+        } */
     }
 }

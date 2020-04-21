@@ -32,7 +32,7 @@ public class @Controls : IInputActionCollection, IDisposable
                     ""id"": ""87927e35-6cda-42b4-bcef-787224d64caa"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": ""Press""
+                    ""interactions"": ""Press(pressPoint=0.1)""
                 }
             ],
             ""bindings"": [
@@ -117,7 +117,7 @@ public class @Controls : IInputActionCollection, IDisposable
                     ""name"": """",
                     ""id"": ""f670051a-6800-422a-85c3-89e6751c3228"",
                     ""path"": ""<XRController>{LeftHand}/triggerPressed"",
-                    ""interactions"": ""Press"",
+                    ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""VR"",
                     ""action"": ""Jump"",
@@ -226,6 +226,52 @@ public class @Controls : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Curseur VR"",
+            ""id"": ""ae7dc14d-005e-436e-8fb4-864909b2f327"",
+            ""actions"": [
+                {
+                    ""name"": ""MoveC"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""6d80ce31-a3e2-4e01-bb40-d5603bf6d059"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Select"",
+                    ""type"": ""Button"",
+                    ""id"": ""e39779b7-1846-4078-acc8-394dc7c0d422"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""4798cdae-790f-47e5-beb8-3818c34f7a65"",
+                    ""path"": ""<XRController>{RightHand}/joystick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""VR"",
+                    ""action"": ""MoveC"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3eef59b4-5946-4171-ac40-3013713e4111"",
+                    ""path"": ""<XRController>{RightHand}/triggerPressed"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""VR"",
+                    ""action"": ""Select"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -249,6 +295,10 @@ public class @Controls : IInputActionCollection, IDisposable
         m_Player_2 = asset.FindActionMap("Player_2", throwIfNotFound: true);
         m_Player_2_Jump = m_Player_2.FindAction("Jump", throwIfNotFound: true);
         m_Player_2_Move = m_Player_2.FindAction("Move", throwIfNotFound: true);
+        // Curseur VR
+        m_CurseurVR = asset.FindActionMap("Curseur VR", throwIfNotFound: true);
+        m_CurseurVR_MoveC = m_CurseurVR.FindAction("MoveC", throwIfNotFound: true);
+        m_CurseurVR_Select = m_CurseurVR.FindAction("Select", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -376,6 +426,47 @@ public class @Controls : IInputActionCollection, IDisposable
         }
     }
     public Player_2Actions @Player_2 => new Player_2Actions(this);
+
+    // Curseur VR
+    private readonly InputActionMap m_CurseurVR;
+    private ICurseurVRActions m_CurseurVRActionsCallbackInterface;
+    private readonly InputAction m_CurseurVR_MoveC;
+    private readonly InputAction m_CurseurVR_Select;
+    public struct CurseurVRActions
+    {
+        private @Controls m_Wrapper;
+        public CurseurVRActions(@Controls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @MoveC => m_Wrapper.m_CurseurVR_MoveC;
+        public InputAction @Select => m_Wrapper.m_CurseurVR_Select;
+        public InputActionMap Get() { return m_Wrapper.m_CurseurVR; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(CurseurVRActions set) { return set.Get(); }
+        public void SetCallbacks(ICurseurVRActions instance)
+        {
+            if (m_Wrapper.m_CurseurVRActionsCallbackInterface != null)
+            {
+                @MoveC.started -= m_Wrapper.m_CurseurVRActionsCallbackInterface.OnMoveC;
+                @MoveC.performed -= m_Wrapper.m_CurseurVRActionsCallbackInterface.OnMoveC;
+                @MoveC.canceled -= m_Wrapper.m_CurseurVRActionsCallbackInterface.OnMoveC;
+                @Select.started -= m_Wrapper.m_CurseurVRActionsCallbackInterface.OnSelect;
+                @Select.performed -= m_Wrapper.m_CurseurVRActionsCallbackInterface.OnSelect;
+                @Select.canceled -= m_Wrapper.m_CurseurVRActionsCallbackInterface.OnSelect;
+            }
+            m_Wrapper.m_CurseurVRActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @MoveC.started += instance.OnMoveC;
+                @MoveC.performed += instance.OnMoveC;
+                @MoveC.canceled += instance.OnMoveC;
+                @Select.started += instance.OnSelect;
+                @Select.performed += instance.OnSelect;
+                @Select.canceled += instance.OnSelect;
+            }
+        }
+    }
+    public CurseurVRActions @CurseurVR => new CurseurVRActions(this);
     private int m_VRSchemeIndex = -1;
     public InputControlScheme VRScheme
     {
@@ -403,5 +494,10 @@ public class @Controls : IInputActionCollection, IDisposable
     {
         void OnJump(InputAction.CallbackContext context);
         void OnMove(InputAction.CallbackContext context);
+    }
+    public interface ICurseurVRActions
+    {
+        void OnMoveC(InputAction.CallbackContext context);
+        void OnSelect(InputAction.CallbackContext context);
     }
 }

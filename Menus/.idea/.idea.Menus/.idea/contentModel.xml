@@ -9,6 +9,9 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Controls.cs" t="Include" />
+        <e p="Materials" t="Include">
+          <e p="PlayerOutline.shader" t="Include" />
+        </e>
         <e p="Menu" t="Include">
           <e p="MainMenu.cs" t="Include" />
           <e p="SetVolume.cs" t="Include" />
@@ -138,9 +141,9 @@
         </e>
         <e p="Script" t="Include">
           <e p="Air.cs" t="Include" />
-          <e p="Bloc.cs" t="Include" />
           <e p="Blok.cs" t="Include" />
           <e p="Case.cs" t="Include" />
+          <e p="Cursor.cs" t="Include" />
           <e p="Game.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="Grille.cs" t="Include" />

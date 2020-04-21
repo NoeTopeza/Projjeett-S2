@@ -2,75 +2,239 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7634d74-ac31-42fe-ad9b-8b37ffcea091" name="Default Changelist" comment="mvt ?">
-      <change beforePath="$PROJECT_DIR$/../.gitignore.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/AirVisible.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/AirVisible.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/PlayerOutline.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/PlayerOutline.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Cursor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Menus/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Menus/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Menus/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Menus/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Menus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Menus/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Bloc.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Bloc.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Blok.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Blok.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cube.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cube.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grille.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grille.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hand_Button.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hand_Button.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/New Material 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material 1.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/New Material 1.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material 2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material 2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/New Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/New Material.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Menu/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Menu/MainMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerMovement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerMovement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerMvt2.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerMvt2.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Controls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Controls.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Controls.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Controls.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameVR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameVR.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Air.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Air.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Bloc.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Bloc.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Bloc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Bloc/Air.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Bloc/Air.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Bloc/Blok.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Bloc/Blok.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Air.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Air.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Bloc.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Bloc.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Cursor.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Blok.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Blok.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Case.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Case.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/GameEvent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/GameEvent.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/GridManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/GridManager.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Grille.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Grille.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/HandButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/HandButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Hand_Button.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Hand_Button.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerMvt2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PlayerMvt2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/Controller.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/Controller.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/AnnotationManager" beforeDir="false" afterPath="$PROJECT_DIR$/Library/AnnotationManager" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/11/11e348423657e76742129d0dfa9d68c8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/47/4721b49cbcd4ea986b34a2ea5fa004cc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/48/48725531dfa0ea80e10eb7cdf5b6ca5e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4d/4ddb676010b9376315c31600a9abeec7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/64/64d3f16993eee7f7c0253303b148b474" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7b/7b73d5d6cbf8ccd3f13b011b2666a463" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/80/80dd1a35a2e4ffd36bfb0c6196c8cc75" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/85/8531c65e8c89cfccee2250d68a7163db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8d/8d27d71316b1388a19bdf546b0da9827" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a0/a089c86b481cfbc9384ab1205ba7f502" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c7/c736a01ff26ecbd896e8100fee93a9e1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/cd/cd1aab493ed57339b25bec06793002a4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d7/d751154b4dddf4674a01b53011feed69" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f8/f8e73bcab63172577920a40d1bf196aa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/88/88597d53592735862be331316a774ff0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b6/b69f553cea214cb91fbd5837989b9a1f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f7/f7c3dccb87fe3bce1546fba2b4a43e36" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/CHANGELOG.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/CreateUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/CreateUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Debugger.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Debugger/XRInputDevicesTreeView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Debugger/XRInputDevicesTreeView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Debugger/XRInteractablesTreeView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Debugger/XRInteractablesTreeView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Debugger/XRInteractionDebuggerWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Debugger/XRInteractionDebuggerWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Debugger/XRInteractorsTreeView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Debugger/XRInteractorsTreeView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/Controllers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/Controllers/XRControllerEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/Controllers/XRControllerEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/Controllers/XRControllerRecorderEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/Controllers/XRControllerRecorderEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/Controllers/XRControllerRecordingEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/Controllers/XRControllerRecordingEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/Interactables.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/Interactables/XRGrabInteractableEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/Interactables/XRGrabInteractableEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/Interactors.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/Interactors/Helpers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/Interactors/Helpers/XRInteractorLineVisualEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/Interactors/Helpers/XRInteractorLineVisualEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/Interactors/XRDirectInteractorEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/Interactors/XRDirectInteractorEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/Interactors/XRRayInteractorEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/Interactors/XRRayInteractorEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/Interactors/XRSocketInteractorEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/Interactors/XRSocketInteractorEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/XRRigEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Interaction/XRRigEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Locomotion.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Locomotion/SnapTurn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Locomotion/SnapTurn/SnapTurnProviderEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Locomotion/SnapTurn/SnapTurnProviderEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Unity.XR.Interaction.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Editor/Unity.XR.Interaction.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/LICENSE.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/DragGesture.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/DragGesture.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/DragGestureRecognizer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/DragGestureRecognizer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/Gesture.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/Gesture.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/GestureRecognizer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/GestureRecognizer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/GestureTouchesUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/GestureTouchesUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/PinchGesture.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/PinchGesture.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/PinchGestureRecognizer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/PinchGestureRecognizer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/TapGesture.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/TapGesture.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/TapGestureRecognizer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/TapGestureRecognizer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/TwistGesture.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/TwistGesture.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/TwistGestureRecognizer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/TwistGestureRecognizer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/TwoFingerDragGesture.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/TwoFingerDragGesture.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/TwoFingerDragGestureRecognizer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Gestures/TwoFingerDragGestureRecognizer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Interactables.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Interactables/ARAnnotationInteractable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Interactables/ARAnnotationInteractable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Interactables/ARBaseGestureInteractable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Interactables/ARBaseGestureInteractable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Interactables/ARPlacementInteractable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Interactables/ARPlacementInteractable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Interactables/ARRotationInteractable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Interactables/ARRotationInteractable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Interactables/ARScaleInteractable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Interactables/ARScaleInteractable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Interactables/ARSelectionInteractable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Interactables/ARSelectionInteractable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Interactables/ARTranslationInteractable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Interactables/ARTranslationInteractable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Interactables/GestureTransformationUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Interactables/GestureTransformationUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Interactors.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Interactors/ARGestureInteractor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AR/Interactors/ARGestureInteractor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/AssemblyInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Controllers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Controllers/XRController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Controllers/XRController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Controllers/XRControllerRecorder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Controllers/XRControllerRecorder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Controllers/XRControllerRecording.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Controllers/XRControllerRecording.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactables.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactables/Helpers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactables/Helpers/XRTintInteractableVisual.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactables/Helpers/XRTintInteractableVisual.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactables/XRBaseInteractable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactables/XRBaseInteractable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactables/XRGrabInteractable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactables/XRGrabInteractable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactables/XRSimpleInteractable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactables/XRSimpleInteractable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactors.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactors/Helpers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactors/Helpers/IXRCustomReticleProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactors/Helpers/IXRCustomReticleProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactors/Helpers/XRInteractorLineVisual.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactors/Helpers/XRInteractorLineVisual.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactors/Helpers/XRInteractorReticleVisual.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactors/Helpers/XRInteractorReticleVisual.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactors/XRBaseControllerInteractor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactors/XRBaseControllerInteractor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactors/XRBaseInteractor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactors/XRBaseInteractor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactors/XRDirectInteractor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactors/XRDirectInteractor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactors/XRRayInteractor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactors/XRRayInteractor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactors/XRSocketInteractor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/Interactors/XRSocketInteractor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/XRInteractionManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/XRInteractionManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/XRInteractionUpdateOrder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Interaction/XRInteractionUpdateOrder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Locomotion.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Locomotion/LocomotionProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Locomotion/LocomotionProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Locomotion/LocomotionSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Locomotion/LocomotionSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Locomotion/SnapTurn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Locomotion/SnapTurn/SnapTurnProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Locomotion/SnapTurn/SnapTurnProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Locomotion/Teleportation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Locomotion/Teleportation/BaseTeleportationInteractable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Locomotion/Teleportation/BaseTeleportationInteractable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Locomotion/Teleportation/TeleportationAnchor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Locomotion/Teleportation/TeleportationAnchor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Locomotion/Teleportation/TeleportationArea.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Locomotion/Teleportation/TeleportationArea.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Locomotion/Teleportation/TeleportationProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Locomotion/Teleportation/TeleportationProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/UI/JoystickModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/UI/JoystickModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/UI/MouseModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/UI/MouseModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/UI/TouchModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/UI/TouchModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/UI/TrackedDeviceEventData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/UI/TrackedDeviceEventData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/UI/TrackedDeviceGraphicRaycaster.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/UI/TrackedDeviceGraphicRaycaster.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/UI/TrackedDeviceModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/UI/TrackedDeviceModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/UI/UIInputModule.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/UI/UIInputModule.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/UI/XRUIInputModule.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/UI/XRUIInputModule.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Unity.XR.Interaction.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/Unity.XR.Interaction.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/XR.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/XR/GizmoHelpers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/XR/GizmoHelpers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/XR/InputHelpers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/XR/InputHelpers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/XR/SortingHelpers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/XR/SortingHelpers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/XR/XRRig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Runtime/XR/XRRig.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Tests.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Tests/.tests.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Tests/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Tests/Runtime/ARTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Tests/Runtime/ARTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Tests/Runtime/DirectInteractorTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Tests/Runtime/DirectInteractorTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Tests/Runtime/InteractionManagerTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Tests/Runtime/InteractionManagerTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Tests/Runtime/LocomotionTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Tests/Runtime/LocomotionTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Tests/Runtime/RayInteractorTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Tests/Runtime/RayInteractorTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Tests/Runtime/SocketInteractorTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Tests/Runtime/SocketInteractorTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Tests/Runtime/TestUtilities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Tests/Runtime/TestUtilities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Tests/Runtime/Unity.XR.Interaction.Tests.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Tests/Runtime/Unity.XR.Interaction.Tests.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Tests/Runtime/XRControllerTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Tests/Runtime/XRControllerTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Third Party Notices.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/Third Party Notices.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.3-preview/package.json.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll" afterDir="false" />
@@ -85,7 +249,9 @@
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.XR.Management.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.XR.Management.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll" afterDir="false" />
@@ -111,8 +277,6 @@
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,18 +288,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Bloc.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Game.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Controls.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Menu/SetVolume.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Menu/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Air.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/StateCache/SceneView/9dcb81-mainStage.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Blok.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Cursor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Materials/PlayerOutline.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Case.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/HandButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Air.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerMvt2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Air.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Grille.cs" root0="FORCE_HIGHLIGHTING" />
@@ -155,20 +321,23 @@
         <option value="$PROJECT_DIR$/Assets/Bloc.cs" />
         <option value="$PROJECT_DIR$/Assets/Cube.cs" />
         <option value="$PROJECT_DIR$/Assets/Menu/MainMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerMvt2.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/GridManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Bloc/Air.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Bloc/Blok.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Game.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Blok.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Hand_Button.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/GameEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Air.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Bloc.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/HandButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Bloc.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Blok.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Air.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/luca.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Case.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Materials/PlayerOutline.shader" />
+        <option value="$PROJECT_DIR$/Assets/Script/Cursor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Grille.cs" />
       </list>
     </option>
@@ -262,7 +431,9 @@
       <workItem from="1584304217884" duration="5389000" />
       <workItem from="1587050170093" duration="1301000" />
       <workItem from="1587208013024" duration="14401000" />
-      <workItem from="1587291433391" duration="11873000" />
+      <workItem from="1587291433391" duration="17266000" />
+      <workItem from="1587371521693" duration="19817000" />
+      <workItem from="1587459127536" duration="14784000" />
     </task>
     <task id="LOCAL-00001" summary="mvt ?">
       <created>1583694014345</created>
@@ -298,22 +469,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="mvt ?" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="879" height="279" key="GridCell.Tab.0.bottom" timestamp="1587302375970">
+    <state width="879" height="279" key="GridCell.Tab.0.bottom" timestamp="1587339227556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="879" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587302375970" />
-    <state width="879" height="279" key="GridCell.Tab.0.center" timestamp="1587302375970">
+    <state width="879" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587339227556" />
+    <state width="879" height="279" key="GridCell.Tab.0.center" timestamp="1587339227556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="879" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587302375970" />
-    <state width="879" height="279" key="GridCell.Tab.0.left" timestamp="1587302375970">
+    <state width="879" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587339227556" />
+    <state width="879" height="279" key="GridCell.Tab.0.left" timestamp="1587339227556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="879" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587302375970" />
-    <state width="879" height="279" key="GridCell.Tab.0.right" timestamp="1587302375970">
+    <state width="879" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587339227556" />
+    <state width="879" height="279" key="GridCell.Tab.0.right" timestamp="1587339227556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="879" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587302375970" />
+    <state width="879" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587339227556" />
     <state width="729" height="344" key="GridCell.Tab.1.bottom" timestamp="1583698057187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

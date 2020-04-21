@@ -9,23 +9,32 @@ namespace Script
         [SerializeField] private float mvtSpeed = 5f;
         //[SerializeField] private float gravity = 9.81f;
 
-        private Controls _controls = null;
+        private Controls _controls; //= null
+        private Vector2 _move;
 
         public Transform grCheck;
         public float grDistance = 0.4f;
         public LayerMask grMask;
         private bool _isGrounded;
-        //private Vector3 _velocity;
-        void Awake()
+        //private Vector3 _velocity; //lié à la gravité
+        private void Awake()
         {
             _controls = new Controls();
+
+            _controls.Player.Jump.performed += ctx => Jump();
+
+            _controls.Player.Move.performed += ctx => _move = ctx.ReadValue<Vector2>();
+            _controls.Player.Move.canceled += ctx => _move = Vector2.zero;
+
         }
     
-        void Update()
+        private void Update()
         {
             _isGrounded = Physics.CheckSphere(grCheck.position,grDistance,grMask);
         
-            Move();
+            //Move
+            Vector2 m = new Vector2(_move.x, _move.y) * Time.deltaTime;
+            transform.Translate(m, Space.Self);
         
             if (_isGrounded /*&& _velocity.y < 0 */)    //Touche le sol ?
             {
@@ -53,19 +62,6 @@ namespace Script
             {
                 rB.AddForce(0,jumpH,0);
             }
-        }
-
-        private void Move()
-        {
-            var movementInput = _controls.Player.Move.ReadValue<Vector2>();
-
-            var movement = new Vector3
-            {
-                x = movementInput.x,
-                z = movementInput.y
-            }.normalized;
-        
-            transform.Translate(movement * (mvtSpeed * Time.deltaTime));
         }
 
         private void OnEnable() => _controls.Player.Enable();

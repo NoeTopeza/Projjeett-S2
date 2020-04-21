@@ -1,13 +1,12 @@
-﻿namespace Script
-{
-    public class Blok : Bloc
-    {
-        public const int BuildCost = 1;
-        
-        public Blok()
-        {
-            Type = BlocType.Blok;
-        }
+﻿using UnityEngine;
 
+namespace Script
+{
+    public class Blok : MonoBehaviour
+    {
+        public GameObject terrain;
+        public const int BuildCost = 1;
+        Case.BlocType Type = Case.BlocType.Blok;
+        
     }
 }
